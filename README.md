@@ -1,4 +1,3 @@
-***NOTE**: The Godot 4.0 version of this plugin is currently in development on the `gd-extension`-branch as found [here](https://github.com/2shady4u/godot-sqlite/tree/gd-extension).*
 
 # Snake C#
 
