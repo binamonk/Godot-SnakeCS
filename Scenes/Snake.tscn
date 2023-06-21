@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6u3pqukqn4a4"]
+
+[ext_resource type="Script" path="res://Scenes/Snake.cs" id="1_efryv"]
+[ext_resource type="Script" path="res://Scenes/SnakeBody.cs" id="2_troh1"]
+[ext_resource type="Script" path="res://Scenes/Apple.cs" id="3_n6s0l"]
+
+[node name="Snake" type="Node2D"]
+script = ExtResource("1_efryv")
+
+[node name="SnakeBody" type="Sprite2D" parent="."]
+script = ExtResource("2_troh1")
+
+[node name="Apple" type="Sprite2D" parent="."]
+script = ExtResource("3_n6s0l")
