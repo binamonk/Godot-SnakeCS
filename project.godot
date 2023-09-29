@@ -12,7 +12,7 @@ config_version=5
 
 config/name="Snakes"
 run/main_scene="res://Scenes/Snake.tscn"
-config/features=PackedStringArray("4.0", "C#", "Mobile")
+config/features=PackedStringArray("4.1", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [display]

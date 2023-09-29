@@ -64,7 +64,10 @@ public partial class Snake : Node2D
 		{
 			Position = new Vector2(rnd.Next(0, 15) * 40, rnd.Next(0, 8) * 40)
 		};
-		AddChild(_apple);
+		
+		// Using Call Deferred to align to main thread,
+		// please read function documentation
+		CallDeferred("add_child", _apple);
 	}
 
 }
